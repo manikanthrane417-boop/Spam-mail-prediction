@@ -20,7 +20,7 @@ def predict(text):
 
 def main():
     st.title("Spam Mail Prediction")
-    st.write("Enter the messsage to predict whether it is spam or not")
+    st.write("Enter the messsage to predict wheather it is spam or not")
     msg=st.text_area("Message")
     result=""
     if st.button("Predict"):
